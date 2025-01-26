@@ -56,13 +56,22 @@ body{
     width: 100%;
   }
   
+ @media only screen and (min-width: 700px) {
   #fixed {
-    position: fixed;
-    bottom: 0;
-    left: 0; /* Add this to ensure it spans the full width and stuff */
-    width: 100%; 
-    text-align: center; 
-    display: flex;
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
+  background-color: blue;
+  position: fixed;
+  bottom: 0;
+  left: 0; /* Add this to ensure it spans the full width and stuff */
+  width: 100%; 
+  text-align: center; 
+  display: flex;
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+}
+}
+@media only screen and (max-width: 700px){
+  #fixed{
+      background-color: red;
+      
   }
+}
