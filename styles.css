@@ -1,64 +1,69 @@
 body{
-    text-align: center;
-    background-color: mintcream;
-    padding-left: 15%;
-    padding-right: 15%;
+  text-align: center;
+  background-color: mintcream;
+  padding-left: 250px;
+  padding-right: 250px;
+  
+  background-color: #a1f8f8c9;
 }
 
 #flex-box {
-  display: flex;
-  align-items: stretch;
-  background-color: #f1f1f1;
-  flex-direction: column;
-  /* min-height: 100vh */
-  
+display: flex;
+align-items: stretch;
+background-color: #03b8828f;
+flex-direction: column;
+/* min-height: 100vh */
+
 }
 
 #flex-box > div {
-  background-color: DodgerBlue;
-  color: white;
-  margin: 10px;
-  text-align: center;
-  /* line-height: 75px; */
-  font-size: 30px;
+
+color: white;
+margin: 10px;
+text-align: center;
+/* line-height: 75px; */
+font-size: 30px;
 }
 #button{
-  margin: 1px;
-  padding: 0px;
+margin: 1px;
+padding: 0px;
 }
 .butt {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 1rem;
-    text-align: center;
-    color: #320083;
-    
-    border-radius: 20px;
-    background-color: rgba(3, 182, 98, 0.685);
-    
-    box-shadow:
-      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
-      inset -3px -3px 4px rgba(0, 0, 0, 0.6);
-  }
-  .butt:hover{
-    background-color: rgb(0, 225, 255);
-    color: rgb(128, 0, 32);
-  }
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #320083;
   
-  .butt:active{
-    box-shadow:
-      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
-      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-  }
+  border-radius: 20px;
+  background-color: rgba(3, 182, 98, 0.685);
+  
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -3px -3px 4px rgba(0, 0, 0, 0.6);
+}
+.butt:hover{
+  background-color: rgb(0, 225, 255);
+  color: rgb(128, 0, 32);
+}
 
-  img{
-    width: 100%;
-  }
-  
- @media only screen and (min-width: 700px) {
+.butt:active{
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+img{
+  width: 100%;
+}
+fixed{
+  background-color: black;
+}
+
+@media only screen and (min-width: 1500px) {
   #fixed {
-  background-color: blue;
+  background-color: rgba(0, 0, 255, 0.432);
   position: fixed;
   bottom: 0;
   left: 0; /* Add this to ensure it spans the full width and stuff */
@@ -69,9 +74,9 @@ body{
   align-items: center; /* Center the items vertically */
 }
 }
-@media only screen and (max-width: 700px){
-  #fixed{
-      background-color: red;
-      
+@media only screen and (max-width: 1500px){
+ 
+  body{
+    padding:10px;
   }
 }
